@@ -1,6 +1,6 @@
 package Acme::Opish;
 
-our $VERSION = '0.0601';
+our $VERSION = '0.0602';
 
 use strict;
 use warnings;
