@@ -1,7 +1,6 @@
 package Acme::Opish;
 
-use vars qw($VERSION);
-$VERSION = '0.0601';
+our $VERSION = '0.0602';
 
 use strict;
 use warnings;
@@ -216,8 +215,8 @@ Acme::Opish - Prefix the audible vowels of words
 
   use Acme::Opish;
 
-  print enop('Hello Aeryk!');
-  # Hopellopo Opaeropyk! 
+  print enop('Hello Eric!');
+  # Hopellopo Operopic! 
 
   @opped = enop('five', 'yellow', '/literature/Wuthering_Heights.txt');
   # fopive, yopellopow, /literature/opish-Wuthering_Heights.txt
@@ -292,20 +291,5 @@ Add more "non-silent-e" words to the "OK" list.
 =head1 THANK YOU
 
 DrForr (A.K.A. Jeff Goff) and DrMath (A.K.A. Ken Williams)
-
-=head1 DEDICATION
-
-Hopellopo Opaeropyk!
-
-=head1 AUTHOR
-
-Gopene Bopoggs, E<lt>gene@cpan.orgE<gt>
-
-=head1 COPYRIGHT AND LICENSE
-
-Copyright 2003 by Gopene Bopoggs
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself. 
 
 =cut
