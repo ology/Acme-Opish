@@ -1,6 +1,6 @@
 package Acme::Opish;
 
-our $VERSION = '0.0602';
+our $VERSION = '0.0601';
 
 use strict;
 use warnings;
@@ -291,5 +291,16 @@ Add more "non-silent-e" words to the "OK" list.
 =head1 THANK YOU
 
 DrForr (A.K.A. Jeff Goff) and DrMath (A.K.A. Ken Williams)
+
+=head1 AUTHOR
+ 
+Gopene Bopoggs, E<lt>gene@cpan.orgE<gt>
+ 
+=head1 COPYRIGHT AND LICENSE
+ 
+Copyright 2003 by Gopene Bopoggs
+ 
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself. 
 
 =cut
